@@ -26,20 +26,22 @@ cd credit-card-fraud-detection
 ```
 
 2️⃣ Install dependencies
+
 Ensure you have Python installed, then install the required libraries:
 
 ```
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+pip install pandas numpy matplotlib seaborn scikit-learn 
 ```
 
 📊 Exploratory Data Analysis (EDA)
+
 Fraudulent transactions account for less than 0.2% of all transactions.
 Imbalance handling: SMOTE (Synthetic Minority Over-sampling) is used to balance the dataset.
 Correlation analysis: Identifies important features affecting fraud detection.
 
 🤖 Machine Learning Models
-The project uses multiple ML models, including:
 
+The project uses multiple ML models, including:
 Logistic Regression
 Random Forest Classifier
 
@@ -48,12 +50,14 @@ I used Logistic Regression ML model to detect fraud transcation. You can also us
 Model is evaluated using Accuracy, Precision, Recall, F1-score, and AUC-ROC Curve.
 
 🚀 How to Run
+
 Run the Python script to train the model and make predictions:
 ```
 python fraud_detection.py
 ```
 
 📈 Results
+
 Random Forest Classifier achieved 99% precision on fraud cases.
 Logistic Regression classifier achieved 94% precision on fraud cases.
 
